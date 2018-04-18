@@ -27,7 +27,7 @@ spring.datasource.druid.filters=stat,wall,log4j
 # 合并多个DruidDataSource的监控数据
 spring.datasource.druid.useGlobalDataSourceStat=true
 # Spring监控配置，说明请参考Druid Github Wiki，配置_Druid和Spring关联监控配置
-spring.datasource.druid.aop-patterns=com.shzu.convenience.mapper.*
+spring.datasource.druid.aop-patterns=com.biyesheji.convenience.mapper.*
 # 数据库统计，记录慢查询
 spring.datasource.druid.filter.stat.merge-sql=true
 spring.datasource.druid.filter.stat.enabled=true
@@ -45,7 +45,7 @@ spring.freemarker.content-type=text/html
 spring.freemarker.template-loader-path=classpath:/templates/
 
 # MyBatis configuration
-mybatis.type-aliases-package=com.shzu.convenience.mapper
+mybatis.type-aliases-package=com.biyesheji.convenience.mapper
 mybatis.mapper-locations=classpath:mapper/*.xml
 
 # PageHelper configuration
